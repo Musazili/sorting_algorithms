@@ -1,6 +1,7 @@
 #ifndef SORT_H
 #define SORT_H
 
+/*includes*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -30,7 +31,6 @@ typedef enum bool
  */
 
 typedef struct listint_s
-
 {
 	const int n;
 	struct listint_s *prev;
